@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
     public void playAction(View view) {
       TextView numberValue = findViewById(R.id.numberValue);
       int randomNumber = new Random().nextInt(11);
-      numberValue.setText("" + randomNumber);
+      numberValue.setText(String.valueOf(randomNumber));
     }
 }
