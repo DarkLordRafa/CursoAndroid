@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Layout</string>
+    <string name="newValueText">Outro  texto</string>
+    <string name="newValueText2">Texto 2</string>
+</resources>
