@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public abstract class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -13,8 +13,8 @@ public abstract class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
   }
 
-
   TextView mainText = findViewById(R.id.mainText);
+
   int textPosition = 0;
 
   String[] texts = {
@@ -28,12 +28,14 @@ public abstract class MainActivity extends AppCompatActivity {
       "O retorno de um clássico"
   };
 
+
 /*
   public void changeTextPrevious(View view){
     if (textPosition > 0){
       textPosition --;
       if (textPosition > 0){
         mainText.setText(texts[textPosition].toUpperCase());
+        mainText.setTextColor(this.getResources().getColor(R.color.mainTextBlack));
       }
       else {
         mainText.setText(texts[textPosition].toLowerCase());
