@@ -58,20 +58,17 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="40dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
-            android:text="Resident Evil 4 é um remake do Resident Evil 4 original de 2005.\n\n
-Reimaginado para 2023 para trazer horror de sobrevivência de última geração.\n\n
-Resident Evil 4 preserva a essência do jogo original enquanto apresenta jogabilidade modernizada,
-enredo reimaginado e gráficos vívidamente detalhados para fazer deste o mais recente jogo de horror de sobrevivência,
-onde a vida e a morte, o terror e a catarse se cruzam."
+            android:text="Resident Evil 4 é um remake do Resident Evil 4 original de 2005.\n\nReimaginado para 2023 para trazer horror de sobrevivência de última geração.\n\nResident Evil 4 preserva a essência do jogo original enquanto apresenta jogabilidade modernizada, enredo reimaginado e gráficos vívidamente detalhados para fazer deste o mais recente jogo de horror de sobrevivência, onde a vida e a morte, o terror e a catarse se cruzam."
             android:textColor="@color/mainTextNormal"
-            android:textSize="14sp"
+            android:textSize="15sp"
             app:fontFamily="sans-serif-medium"
+            app:layout_constraintBottom_toBottomOf="@+id/button2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.70" />
 
         <Button
             android:id="@+id/button"
@@ -101,11 +98,9 @@ onde a vida e a morte, o terror e a catarse se cruzam."
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="100dp"
             android:layout_marginBottom="30dp"
             android:text="Rafael Silva"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/mainText" />
+            app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
