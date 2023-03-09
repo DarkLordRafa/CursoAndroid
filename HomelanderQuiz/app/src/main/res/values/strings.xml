@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Homelander Quiz</string>
+    <string name="defaultQuestion">Este é o Capitão Pátria!\nComo você cumprimenta ele?</string>
+    <string name="defaultOption1">Você é o cara Capitão!</string>
+    <string name="defaultOption2">Babaca!</string>
+    <string name="defaultOption3">Capitão, um autógrafo por favor!</string>
+    <string name="defaultStatus">Capitão Pátria não pensa nada sobre você</string>
+    <string name="resultButtonText">Resultado</string>
+</resources>
