@@ -2,6 +2,7 @@ package com.app.homelanderquiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     mainClass.resultButton = findViewById(R.id.resultButton);
     mainClass.resultTextLayout = findViewById(R.id.resultTextLayout);
     mainClass.resultText = findViewById(R.id.resultText);
+    mainClass.restartButton = findViewById(R.id.restartButton);
   }
 
   public void clickOption1(View v){
@@ -46,6 +48,12 @@ public class MainActivity extends AppCompatActivity {
   public void getResult(View v){
     setMainClass(mainClass);
     mainClass.displayResultLayout();
+  }
+
+  public void restartGame(View v){
+    finish();
+    startActivity(getIntent());
+    overridePendingTransition(0, 0);
   }
 
 }

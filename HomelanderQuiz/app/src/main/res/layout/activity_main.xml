@@ -40,6 +40,26 @@
         app:layout_constraintStart_toStartOf="@id/resultTextLayout"
         app:layout_constraintTop_toTopOf="@+id/resultTextLayout" />
 
+    <TextView
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="#fff"
+        android:elevation="5dp"
+        android:onClick="restartGame"
+        android:padding="10dp"
+        android:shadowColor="#000"
+        android:text="@string/restartButtonText"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:visibility="gone"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintBottom_toBottomOf="@+id/resultTextLayout"
+        app:layout_constraintEnd_toStartOf="@+id/resultTextLayout"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/resultTextLayout" />
+
     <View
         android:id="@+id/resultButtonLayout"
         android:layout_width="0dp"
@@ -63,13 +83,13 @@
         android:layout_height="wrap_content"
         android:background="#fff"
         android:elevation="4dp"
+        android:onClick="getResult"
         android:padding="10dp"
+        android:shadowColor="#000"
         android:text="@string/resultButtonText"
         android:textColor="@android:color/black"
         android:textSize="25sp"
         android:visibility="gone"
-        android:shadowColor="#000"
-        android:onClick="getResult"
         app:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toBottomOf="@id/resultButtonLayout"
         app:layout_constraintEnd_toEndOf="@+id/resultButtonLayout"

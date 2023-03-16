@@ -6,4 +6,5 @@
     <string name="defaultOption3">Capitão, um autógrafo por favor!</string>
     <string name="defaultStatus">Capitão Pátria não pensa nada sobre você</string>
     <string name="resultButtonText">Resultado</string>
+    <string name="restartButtonText">Jogar de novo</string>
 </resources>

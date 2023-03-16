@@ -1,6 +1,7 @@
 package com.app.homelanderquiz;
 
 
+import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -24,6 +25,8 @@ public class MainClass extends AppCompatActivity {
   public TextView resultButton;
   public View resultTextLayout;
   public TextView resultText;
+  public TextView restartButton;
+
 
 
   private int currentQuestion = 0;
@@ -393,6 +396,7 @@ public class MainClass extends AppCompatActivity {
     this.status.setVisibility(View.GONE);
     this.resultTextLayout.setVisibility(View.VISIBLE);
     this.resultText.setVisibility(View.VISIBLE);
+    this.restartButton.setVisibility(View.VISIBLE);
 
     if(this.reputation >= 5){
       this.homelanderMainImage.setImageResource(R.drawable.homelander_good_end);
