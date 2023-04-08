@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Caixa Eletrônico</string>
+    <string name="appTitle">Caixa Eletrônico</string>
+    <string name="balanceTitle">Saldo</string>
+    <string name="depositTitle">Depósito</string>
+    <string name="realSymbol">R$</string>
+    <string name="depositButtonText">Depositar</string>
+    <string name="withdrawalTitle">Saque</string>
+    <string name="withdrawalButtonText">Sacar</string>
+</resources>
