@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg1_color"
+    tools:context=".fragments.AnimalsFragment">
+
+
+    <ImageButton
+        android:id="@+id/animal6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg1_color"
+        android:src="@drawable/vaca"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/animal5"
+        app:layout_constraintTop_toBottomOf="@+id/animal4" />
+
+    <ImageButton
+        android:id="@+id/animal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg1_color"
+        android:src="@drawable/cao"
+        app:layout_constraintBottom_toTopOf="@+id/animal3"
+        app:layout_constraintEnd_toStartOf="@+id/animal2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/animal5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg1_color"
+        android:src="@drawable/ovelha"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/animal6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animal3" />
+
+    <ImageButton
+        android:id="@+id/animal4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg1_color"
+        android:src="@drawable/macaco"
+        app:layout_constraintBottom_toTopOf="@+id/animal6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/animal3"
+        app:layout_constraintTop_toBottomOf="@+id/animal2" />
+
+    <ImageButton
+        android:id="@+id/animal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg1_color"
+        android:src="@drawable/gato"
+        app:layout_constraintBottom_toTopOf="@+id/animal4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/animal1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/animal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg1_color"
+        android:src="@drawable/leao"
+        app:layout_constraintBottom_toTopOf="@+id/animal5"
+        app:layout_constraintEnd_toStartOf="@+id/animal4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animal1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/direitos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
