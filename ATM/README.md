@@ -9,5 +9,5 @@ O app foi criado para exibir informações da empresa através do menu feito com
 
 O app Também utiliza Intents para fazer ações como mandar um email pré montado, e também utiliza uma biblioteca do Github para montar a estrutura da tela "Sobre" de forma muito prática.
 
-Download do app 👇🏼:
+Download do app 👇🏼:\n
 https://lnkd.in/duaYFqxi
