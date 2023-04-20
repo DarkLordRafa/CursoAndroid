@@ -1,7 +1,7 @@
 
 # App ATM Consultoria
 
-<img src="https://media.licdn.com/dms/image/D4D22AQFWxHEMx5CCGw/feedshare-shrink_2048_1536/0/1680930764813?e=1684972800&v=beta&t=UkArBU-e_s6ECXPJ7nkwj6-uhoQc51tyPwvfUrggN5o" alt="Imagem mostrando a tela inicial e o menu do aplicativo" width="300px" height="600px" title="Tela inicial" />
+<img src="https://media.licdn.com/dms/image/D4D22AQFWxHEMx5CCGw/feedshare-shrink_2048_1536/0/1680930764813?e=1684972800&v=beta&t=UkArBU-e_s6ECXPJ7nkwj6-uhoQc51tyPwvfUrggN5o" alt="Imagem mostrando a tela inicial e o menu do aplicativo" width="250" height="400" title="Tela inicial" />
 
 App que criado no curso de Desenvolvimento Android.
 É um app sobre uma empresa fictícia de consultoria.
