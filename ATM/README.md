@@ -15,7 +15,7 @@ O app Também utiliza Intents para fazer ações como mandar um email pré monta
 * XML
 * NavigationDrawer
 * Fragments
-* TT
+* Biblioteca Android About Page (link)[google.com]
 
 Download do app 👇🏼:
 <br/>
