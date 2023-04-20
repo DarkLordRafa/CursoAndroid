@@ -11,6 +11,7 @@ O app Também utiliza Intents para fazer ações como mandar um email pré monta
 
 ### Tecnologias utilizadas:
 * Android Studio
+* Android SDK
 * Java
 * XML
 * NavigationDrawer
