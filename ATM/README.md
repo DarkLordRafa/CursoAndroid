@@ -15,7 +15,7 @@ O app Também utiliza Intents para fazer ações como mandar um email pré monta
 * XML
 * NavigationDrawer
 * Fragments
-* Biblioteca Android About Page [link](https://github.com/medyo/android-about-page)
+* Biblioteca Android About Page [(link)](https://github.com/medyo/android-about-page)
 
 Download do app 👇🏼:
 <br/>
