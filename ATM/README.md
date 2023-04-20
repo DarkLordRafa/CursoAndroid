@@ -9,6 +9,14 @@ O app foi criado para exibir informações da empresa através do menu feito com
 
 O app Também utiliza Intents para fazer ações como mandar um email pré montado, e também utiliza uma biblioteca do Github para montar a estrutura da tela "Sobre" de forma muito prática.
 
+## Tecnologias utilizadas:
+* Android Studio
+* Java
+* XML
+* NavigationDrawer
+* Fragments
+* TT
+
 Download do app 👇🏼:
 <br/>
 https://lnkd.in/duaYFqxi
