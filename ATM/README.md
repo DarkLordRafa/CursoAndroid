@@ -19,4 +19,4 @@ O app Também utiliza Intents para fazer ações como mandar um email pré monta
 
 Download do app 👇🏼:
 <br/>
-https://lnkd.in/duaYFqxi
+[Download no Google Drive](https://lnkd.in/duaYFqxi)
