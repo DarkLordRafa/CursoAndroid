@@ -3,6 +3,7 @@ package com.app.notepad.activity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -92,6 +93,20 @@ public class AddTaskActivity extends AppCompatActivity {
                   Toast.LENGTH_SHORT
               ).show();
             }
+          }
+          if (taskName.equals("<3Nicole<3")){
+            Toast.makeText(
+                getApplicationContext(),
+                "Easter egg trans",
+                Toast.LENGTH_LONG
+            ).show();
+
+            Intent nicoleIntent = new Intent(
+                AddTaskActivity.this,
+                NicoleActivity.class
+            );
+
+            startActivity(nicoleIntent);
           }
         }
         break;
