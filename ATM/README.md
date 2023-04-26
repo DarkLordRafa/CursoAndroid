@@ -1,0 +1,23 @@
+
+# App ATM Consultoria
+
+<img src="https://media.licdn.com/dms/image/D4D22AQFWxHEMx5CCGw/feedshare-shrink_2048_1536/0/1680930764813?e=1684972800&v=beta&t=UkArBU-e_s6ECXPJ7nkwj6-uhoQc51tyPwvfUrggN5o" alt="Imagem mostrando a tela inicial e o menu do aplicativo" width="180" height="400" title="Tela inicial" />
+
+## Aplicativo criado no curso de Desenvolvimento Android
+É um app sobre uma empresa fictícia de consultoria.
+O app foi criado para exibir informações da empresa através do menu feito com NavigationDrawer para o sistema de navegação do aplicativo, que foi feito com Fragments para uma melhor fluidez e desempenho na transição das telas.
+
+O app Também utiliza Intents para fazer ações como mandar um email pré montado, e também utiliza uma biblioteca do Github para montar a estrutura da tela "Sobre" de forma muito prática.
+
+### Tecnologias utilizadas:
+* Android Studio
+* Android SDK
+* Java
+* XML
+* NavigationDrawer
+* Fragments
+* Biblioteca Android About Page [(link)](https://github.com/medyo/android-about-page)
+
+Download do app 👇🏼:
+<br/>
+[Download no Google Drive](https://lnkd.in/duaYFqxi)
