@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01C7D2</color>
+    <color name="colorPrimaryDark">#00B2BC</color>
+    <color name="colorAccent">#ff706a</color>
+
+    <color name="colorPrimaryCost">#ff706a</color>
+    <color name="colorPrimaryDarkCost">#e66560</color>
+    <color name="colorAccentCost">#ff706a</color>
+
+    <color name="colorPrimaryGain">#00d39e</color>
+    <color name="colorPrimaryDarkGain">#00be8b</color>
+    <color name="colorAccentGain">#00d39e</color>
+    <color name="colorLogOutButton">#DB0000</color>
+    <color name="colorLogOutButtonDark">#DA1919</color>
+</resources>
